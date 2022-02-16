@@ -1,0 +1,26 @@
+{
+  "functionalities": {
+    "taskbar": true,
+    "startButton": true,
+    "quickAction": true,
+    "contentWindows": true,
+    "clock": true
+  },
+  "taskbar": {
+    "title": "Monodie",
+    "height": 40,
+    "colors": {
+      "infoBulle": "#FFFDD5"
+    },
+    "transition": {
+      "duration": 5,
+      "pause-time": 10
+    },
+    "icons": [
+      { "id": 1, "file": "images/desktop.png", "desc": "Uno Dos Tres ! Oune pacito par la t'est Maria" },
+      { "id": 2, "file": "images/twitch.png", "desc": "Salut c'est moi coxy ! L'ami des grand et des petits !" },
+      { "id": 3, "file": "images/youtube.png", "desc": "Les meilleurs VOD de votre vie, pour vous, les geux, sur Youtube ! @monodie" },
+      { "id": 4, "file": "images/demineur.png", "desc": "Jouez au démineur toute votre vie en me suivant sur insta : @mododie" }
+    ]
+  }
+}

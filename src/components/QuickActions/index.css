@@ -1,0 +1,26 @@
+
+
+.tooltiptext::before {
+  content: "";
+  position: absolute;
+  z-index: 999;
+  bottom: -8px;
+  left: 0;
+  margin-left: 5px;
+  border-top: 8px solid #000000;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 0;
+}
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  z-index: 1000;
+  bottom: -7px;
+  left: 0;
+  margin-left: 5px;
+  border-top: 9px solid #FFFDD5;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 0;
+}

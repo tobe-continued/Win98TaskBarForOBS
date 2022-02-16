@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+.text {
+  font-size: 26px;
+  font-weight: 800;
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: -1px;
+}
+
+.start-button {
+  position: relative;
+  padding: 2px;
+  z-index: 1000;
+  margin: 0px;
+  border-top: 3px solid #ffffff;
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #00000099;
+  border-bottom: 3px solid #00000099;
+}
