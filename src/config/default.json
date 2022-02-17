@@ -21,6 +21,13 @@
       { "id": 2, "file": "images/twitch.png", "desc": "Salut c'est moi coxy ! L'ami des grand et des petits !" },
       { "id": 3, "file": "images/youtube.png", "desc": "Les meilleurs VOD de votre vie, pour vous, les geux, sur Youtube ! @monodie" },
       { "id": 4, "file": "images/demineur.png", "desc": "Jouez au démineur toute votre vie en me suivant sur insta : @mododie" }
+    ],
+    "windows": [
+      { "id": 1, "icon": "images/demineur.png" },
+      { "id": 2, "icon": "images/demineur.png", "name": "Sub" },
+      { "id": 3, "icon": "images/demineur.png", "name": "Gift" },
+      { "id": 4, "name": "Qbits" },
+      { "id": 5 }
     ]
   }
 }

@@ -1,18 +1,19 @@
-
 import Clock from './Clock';
 import TaskBar from './TaskBar';
-import StartButton from './StartButton';
+import BarItem from './BarItem';
+import Separator from './Separator';
 import BarContent from './BarContent';
+import StartButton from './StartButton';
 import QuickActions from './QuickActions';
 import QuickBarIcon from './QuickBarIcon';
-import Separator from './Separator';
 
 export {
-  Clock,
-  TaskBar,
-  StartButton,
-  BarContent,
-  Separator,
-  QuickActions,
-  QuickBarIcon,
-}
+    Clock,
+    TaskBar,
+    BarItem,
+    Separator,
+    BarContent,
+    StartButton,
+    QuickActions,
+    QuickBarIcon,
+};
