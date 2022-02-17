@@ -6,7 +6,7 @@ const styles = {
         flexDirection: 'row',
         marginTop: 2,
         marginLeft: '0px',
-        marginRight: '8px',
+        marginRight: '4px',
         paddingLeft: '4px',
         paddingRight: '4px',
         borderRadius: '2px',
