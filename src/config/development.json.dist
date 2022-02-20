@@ -1,0 +1,81 @@
+{
+  "twitch": {
+    "api": {
+      "uri": "https://id.twitch.tv",
+      "api_url": "https://api.twitch.tv",
+      "redirect_uri": "http://localhost:3000",
+      "client_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "client_secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "scopes": [
+        { "scope": "analytics:read:extensions", "value": true}, 
+        { "scope": "analytics:read:games", "value": true},
+        { "scope": "bits:read", "value": true},
+        { "scope": "channel:edit:commercial", "value": true},
+        { "scope": "channel:manage:broadcast", "value": true},
+        { "scope": "channel:manage:extensions", "value": true},
+        { "scope": "channel:manage:polls", "value": true},
+        { "scope": "channel:manage:predictions", "value": true},
+        { "scope": "channel:manage:redemptions", "value": true},
+        { "scope": "channel:manage:schedule", "value": true},
+        { "scope": "channel:manage:videos", "value": true},
+        { "scope": "channel:read:editors", "value": true},
+        { "scope": "channel:read:goals", "value": true},
+        { "scope": "channel:read:hype_train", "value": true},
+        { "scope": "channel:read:polls", "value": true},
+        { "scope": "channel:read:predictions", "value": true},
+        { "scope": "channel:read:redemptions", "value": true},
+        { "scope": "channel:read:stream_key", "value": true},
+        { "scope": "channel:read:subscriptions", "value": true},
+        { "scope": "clips:edit", "value": true},
+        { "scope": "moderation:read", "value": true},
+        { "scope": "moderator:manage:banned_users", "value": true},
+        { "scope": "moderator:read:blocked_terms", "value": true},
+        { "scope": "moderator:manage:blocked_terms", "value": true},
+        { "scope": "moderator:manage:automod", "value": true},
+        { "scope": "moderator:read:automod_settings", "value": true},
+        { "scope": "moderator:manage:automod_settings", "value": true},
+        { "scope": "moderator:read:chat_settings", "value": true},
+        { "scope": "moderator:manage:chat_settings", "value": true},
+        { "scope": "user:edit", "value": true},
+        { "scope": "user:edit:follows", "value": true},
+        { "scope": "user:manage:blocked_users", "value": true},
+        { "scope": "user:read:blocked_users", "value": true},
+        { "scope": "user:read:broadcast", "value": true},
+        { "scope": "user:read:email", "value": true},
+        { "scope": "user:read:follows", "value": true},
+        { "scope": "user:read:subscriptions", "value": true}
+      ]
+    }
+  },
+  "functionalities": {
+    "taskbar": true,
+    "startButton": true,
+    "quickAction": true,
+    "contentWindows": true,
+    "clock": true
+  },
+  "taskbar": {
+    "title": "Start",
+    "height": 40,
+    "colors": {
+      "infoBulle": "#FFFDD5"
+    },
+    "transition": {
+      "duration": 5,
+      "pause-time": 10
+    },
+    "icons": [
+      { "id": 1, "file": "images/desktop.png", "desc": "Uno Dos Tres ! Oune pacito par la t'est Maria" },
+      { "id": 2, "file": "images/twitch.png", "desc": "Salut c'est moi coxy ! L'ami des grand et des petits !" },
+      { "id": 3, "file": "images/youtube.png", "desc": "Les meilleurs VOD de votre vie, pour vous, les geux, sur Youtube ! @monodie" },
+      { "id": 4, "file": "images/demineur.png", "desc": "Jouez au démineur toute votre vie en me suivant sur insta : @mododie" }
+    ],
+    "windows": [
+      { "id": 1, "icon": "images/demineur.png" },
+      { "id": 2, "icon": "images/demineur.png", "name": "Sub" },
+      { "id": 3, "icon": "images/demineur.png", "name": "Gift" },
+      { "id": 4, "name": "Qbits" },
+      { "id": 5 }
+    ]
+  }
+}
